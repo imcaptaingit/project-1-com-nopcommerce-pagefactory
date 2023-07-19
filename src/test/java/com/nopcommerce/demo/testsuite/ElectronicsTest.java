@@ -110,11 +110,11 @@ public class ElectronicsTest extends BaseTest {
         String expectedRegisterText = "Register";
         softAssert.assertTrue(expectedRegisterText == "Register", "Unable to verify text.");
         //2.20 Fill the mandatory fields
-        registerPage.enterFirstName("Mukz");
-        registerPage.enterLastName("Shah");
-        registerPage.enterEmail("mukesh20@gmail.com");
-        registerPage.enterPassword("Mukz123");
-        registerPage.enterConfirmPassword("Mukz123");
+        registerPage.enterFirstName("Sarvat");
+        registerPage.enterLastName("Shaikh");
+        registerPage.enterEmail("iamboss@googly.com");
+        registerPage.enterPassword("iamboss666");
+        registerPage.enterConfirmPassword("iamboss666");
         //2.21 Click on “REGISTER” Button
         registerPage.clickOnRegisterButton();
         //2.22 Verify the message “Your registration completed”
@@ -127,8 +127,8 @@ public class ElectronicsTest extends BaseTest {
         softAssert.assertTrue(expectedShoppingCartText == "Shopping cart", "Unable to verify text.");
         //2.25 click on checkbox “I agree with the terms of service”
         shoppingCartPage.clickOnLoginLink();
-        loginPage.enterEmail("mukesh20@gmail.com");
-        loginPage.enterPassword("Mukz123");
+        loginPage.enterEmail("iamboss@googly.com");
+        loginPage.enterPassword("iamboss666");
         loginPage.clickOnLoginButton();
         Thread.sleep(2000);
         shoppingCartPage.clickOnTermsOfService();
@@ -139,8 +139,8 @@ public class ElectronicsTest extends BaseTest {
         //2.27 Fill the Mandatory fields
         checkoutPage.selectCountryName("United Kingdom");
         checkoutPage.enterCityName("London");
-        checkoutPage.enterAddressLine1("123 The Best Street");
-        checkoutPage.enterPostalCode("LN1 1LN");
+        checkoutPage.enterAddressLine1("221b The Baker Street");
+        checkoutPage.enterPostalCode("EN8 7EF");
         checkoutPage.enterPhoneNumber("11223344556");
         //2.28 Click on “CONTINUE”
         checkoutPage.clickOnContinueButton();
@@ -154,11 +154,11 @@ public class ElectronicsTest extends BaseTest {
         //2.32 Select “Visa” From Select credit card dropdown
         checkoutPage.selectCreditCard("visa");
         //2.33 Fill all the details
-        checkoutPage.enterCardHolderName("Mukz");
+        checkoutPage.enterCardHolderName("MR BOSS");
         checkoutPage.enterCardNumber("1254658974125698");
         checkoutPage.selectExpiryMonth("10");
         checkoutPage.selectExpiryYear("2025");
-        checkoutPage.enterCardCode("222");
+        checkoutPage.enterCardCode("666");
         //2.34 Click on “CONTINUE”
         checkoutPage.clickContinueButton();
         //2.35 Verify “Payment Method” is “Credit Card”
