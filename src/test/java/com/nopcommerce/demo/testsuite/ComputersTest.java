@@ -103,13 +103,13 @@ public class ComputersTest extends BaseTest {
         //2.21Click on “CHECKOUT AS GUEST” Tab
         checkoutPage.clickOnGuestCheckout();
         //2.22 Fill the all mandatory field
-        checkoutPage.enterFirstName("Mukz");
-        checkoutPage.enterLastName("Shah");
-        checkoutPage.enterEmailId("mukz1234@gmail.com");
+        checkoutPage.enterFirstName("Sarvat");
+        checkoutPage.enterLastName("Shaikh");
+        checkoutPage.enterEmailId("iamboss@googly.com");
         checkoutPage.selectCountryName("United Kingdom");
         checkoutPage.enterCityName("London");
-        checkoutPage.enterAddressLine1("123 The Best Street");
-        checkoutPage.enterPostalCode("LN1 1LN");
+        checkoutPage.enterAddressLine1("221b The Baker Street");
+        checkoutPage.enterPostalCode("EN8 7EF");
         checkoutPage.enterPhoneNumber("11223344556");
         //2.23 Click on “CONTINUE”
         checkoutPage.clickOnContinueButton();
@@ -124,7 +124,7 @@ public class ComputersTest extends BaseTest {
         //2.27 Select “Master card” From Select credit card dropdown
         checkoutPage.selectCreditCard("MasterCard");
         //2.28 Fill all the details
-        checkoutPage.enterCardHolderName("Mr. M. Shah");
+        checkoutPage.enterCardHolderName("Mr. Boss Shaikh");
         checkoutPage.enterCardNumber("5534 5678 1234 5678");
         checkoutPage.selectExpiryMonth("9");
         checkoutPage.selectExpiryYear("2027");
